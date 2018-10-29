@@ -13,9 +13,10 @@ namespace W2_RazorExample.Models
         [Required, StringLength(50)]
         public string Title { get; set; }
 
+        [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
 
-        public MovieGenres Genre { get; set; }
+        public string Genre { get; set; }
 
         public decimal Price { get; set; }
     }

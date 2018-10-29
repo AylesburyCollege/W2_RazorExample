@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace W2_RazorExample.Models
 {
@@ -13,6 +9,6 @@ namespace W2_RazorExample.Models
         {
         }
 
-        public DbSet<W2_RazorExample.Models.Movie> Movie { get; set; }
+        public DbSet<Movie> Movie { get; set; }
     }
 }
