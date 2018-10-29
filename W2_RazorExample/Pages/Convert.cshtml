@@ -1,0 +1,19 @@
+﻿@page
+@model W2_RazorExample.Pages.ConvertModel
+@{
+    ViewData["Title"] = "Convert";
+}
+
+<h1>Currency Converter</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="firstName">Amount in Pounds (£): </label>
+        <input class="form-control" asp-for="pounds" />
+    </div>
+
+    <input type="submit" />
+    <div>
+        You will get &euro; @this.Model.euros
+    </div>
+</form>
+
