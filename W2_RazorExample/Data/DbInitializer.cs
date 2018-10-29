@@ -17,21 +17,21 @@ namespace W2_RazorExample.Data
                 new Movie
                 {
                     Title = "Movie 1",
-                    Genre = "Action",
+                    Genre = MovieGenres.Action,
                     ReleaseDate = new System.DateTime(2017, 2, 14),
                     Price = 10.50m
                 },
                 new Movie
                 {
                     Title = "Movie 2",
-                    Genre = "Comedy",
+                    Genre = MovieGenres.Comedy,
                     ReleaseDate = new System.DateTime(2015, 5, 14),
                     Price = 10.50m
                 },
                 new Movie
                 {
                     Title = "Movie 3",
-                    Genre = "Drama",
+                    Genre = MovieGenres.Romance,
                     ReleaseDate = new System.DateTime(2018, 7, 1),
                     Price = 10.50m
                 }
